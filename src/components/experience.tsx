@@ -27,26 +27,41 @@ export function Experience() {
 
             <div className="space-y-6">
               <ExperienceCard
-                title="Senior Blockchain Developer"
-                company="Web3 Innovations"
+                title="Frontend Developer"
+                company="Blinqpay(uk)"
                 period="2022 - Present"
-                description="Leading the development of decentralized applications and smart contracts for enterprise clients. Architecting scalable solutions using Solidity, Ethereum, and Next.js."
-                skills={["Solidity", "Ethereum", "Next.js", "The Graph", "IPFS"]}
+                description="Developed and maintained the front-end of Blinqpay's web applications, ensuring a seamless user experience and a modern interface."
+                skills={["Next.js","Typescript", "Tailwind css","Redux"]}
               />
-
               <ExperienceCard
-                title="Full Stack Developer"
-                company="Digital Solutions Inc."
-                period="2020 - 2022"
-                description="Developed and maintained web applications using React, Node.js, and MongoDB. Implemented responsive designs and RESTful APIs for various client projects."
-                skills={["React", "Node.js", "MongoDB", "TypeScript", "AWS"]}
+                title="Frontend Developer"
+                company="Qwid by Blinqpay"
+                period="2022 - Present"
+                description="Developed and maintained the front-end of Blinqpay's web applications, ensuring a seamless user experience and a modern interface."
+                skills={["Next.js","Typescript", "Tailwind css","Redux","git"]}
               />
 
               <ExperienceCard
                 title="Frontend Developer"
-                company="Tech Startups Ltd."
-                period="2018 - 2020"
+                company="knightsoftwaresolutions(uk) · Contract"
+                period="2020 - 2022"
+                description="Developed the front-end of the admin system, ensuring a user-friendly and intuitive interface fo"
+                skills={["TypeScript", "AWS" , "Next.js", "Tailwind css","Redux","git"]}
+              />
+
+              <ExperienceCard
+                title="Frontend Developer"
+                company="Tech365"
+                period="2020 - 2021"
                 description="Built user interfaces for SaaS products using React and Redux. Collaborated with designers to implement responsive and accessible web applications."
+                skills={["React", "Redux", "JavaScript", "CSS", "Git"]}
+              />
+              <ExperienceCard
+                title="Frontend Developer"
+                company="Bincom Dev center"
+                period="2019 - 2020"
+                description="Gained valuable experience during an internship at Bincom Dev Center, a prominent software development company.
+- Assisted the development team in various front-end tasks and projects"
                 skills={["React", "Redux", "JavaScript", "CSS", "Git"]}
               />
             </div>
