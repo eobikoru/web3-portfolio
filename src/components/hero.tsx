@@ -34,9 +34,10 @@ export function Hero() {
 
       <div className="container relative z-10 px-4 mx-auto">
         <div className="flex flex-col items-center text-center">
-          <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-border bg-muted/30 text-sm font-medium backdrop-blur-sm">
-            Full-Stack Web2 & Web3 Developer
-          </div>
+        <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-border bg-muted/30 text-sm font-medium backdrop-blur-sm">
+  Full-Stack Web2 <span className="text-primary">&</span> Web3 Developer · Blockchain Enthusiast
+</div>
+
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Building the{" "}
