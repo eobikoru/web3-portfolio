@@ -64,6 +64,9 @@ export function Skills() {
               <SkillCard title="Web3.js/ethers.js" level="Advanced">
                 Contract interaction, wallet integration
               </SkillCard>
+              <SkillCard title="Wagmi" level="Advanced">
+                Contract interaction, wallet integration
+              </SkillCard>
               <SkillCard title="IPFS" level="Advanced">
                 Decentralized storage, content addressing
               </SkillCard>

@@ -251,7 +251,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-2" onClick={(e) => scrollToSection(e, "/")}>
             <Frame className="h-8 w-8 text-primary" />
             <span className="font-bold text-xl bg-gradient-to-r from-primary to-purple-400 bg-clip-text text-transparent">
-              Web3Dev
+              Obikoru daniel
             </span>
           </Link>
 

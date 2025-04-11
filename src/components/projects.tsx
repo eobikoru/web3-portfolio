@@ -35,6 +35,15 @@ export function Projects() {
             tags={["Next.js", "TypeScript", "Tailwind CSS", "Redux"]}
             type="web2"
           />
+          <ProjectCard
+            title="Alpha"
+            description="Alpha is a Web3-native platform where creators and Key Opinion Leaders (KOLs) monetize their expertise by sharing curated tools and offering time for consultations or mentorship sessions."
+            image="/images/alp.png"
+            demoUrl="https://alpha-main-self.vercel.app/"
+            repoUrl="#"
+            tags={["Next.js", "TypeScript", "Tailwind CSS", "Redux","solidity","wagmi"]}
+            type="web3"
+          />
 
           <ProjectCard
             title="Qwid"
