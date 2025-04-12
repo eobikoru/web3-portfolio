@@ -16,7 +16,7 @@ export function About() {
     // Example of how you would trigger a download for a file in the public directory:
     const link = document.createElement('a')
     link.href = '/images/fincv.pdf'
-    link.download = 'developer-resume.pdf'
+    link.download = 'Obikoru-daniel-resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
