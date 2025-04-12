@@ -27,14 +27,14 @@ export function Experience() {
 
             <div className="space-y-6">
               <ExperienceCard
-                title="Frontend Developer"
+                title="Software Developer"
                 company="Blinqpay(uk)"
                 period="2022 - Present"
                 description="Developed and maintained the front-end of Blinqpay's web applications, ensuring a seamless user experience and a modern interface."
                 skills={["Next.js","Typescript", "Tailwind css","Redux"]}
               />
               <ExperienceCard
-                title="Frontend Developer"
+                title="Software Developer"
                 company="Qwid by Blinqpay"
                 period="2022 - Present"
                 description="Developed and maintained the front-end of Blinqpay's web applications, ensuring a seamless user experience and a modern interface."
@@ -42,7 +42,7 @@ export function Experience() {
               />
 
               <ExperienceCard
-                title="Frontend Developer"
+                title="Software Developer"
                 company="knightsoftwaresolutions(uk) · Contract"
                 period="2020 - 2022"
                 description="Developed the front-end of the admin system, ensuring a user-friendly and intuitive interface fo"
@@ -50,14 +50,14 @@ export function Experience() {
               />
 
               <ExperienceCard
-                title="Frontend Developer"
+                title="Software Developer"
                 company="Tech365"
                 period="2020 - 2021"
                 description="Built user interfaces for SaaS products using React and Redux. Collaborated with designers to implement responsive and accessible web applications."
                 skills={["React", "Redux", "JavaScript", "CSS", "Git"]}
               />
               <ExperienceCard
-                title="Frontend Developer"
+                title="Software Developer"
                 company="Bincom Dev center"
                 period="2019 - 2020"
                 description="Gained valuable experience during an internship at Bincom Dev Center, a prominent software development company.
@@ -91,7 +91,7 @@ export function Experience() {
 
 
               <EducationCard
-                title="Frontend development Frontend development"
+                title=" Software development"
                 institution="Braintem"
                 period="2019"
                 description="Foundations in computer science, algorithms, data structures, and software development methodologies."

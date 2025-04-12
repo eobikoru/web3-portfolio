@@ -10,16 +10,16 @@ export function About() {
     // 1. Either link to an actual file in your public directory
     // 2. Or generate a file dynamically and trigger a download
 
-    // For demonstration, we'll create a simple alert
-    alert("Resume download would start here. In a real implementation, link this to your actual resume file.")
+    // // For demonstration, we'll create a simple alert
+    // alert("Resume download would start here. In a real implementation, link this to your actual resume file.")
 
     // Example of how you would trigger a download for a file in the public directory:
-    // const link = document.createElement('a')
-    // link.href = '/resume.pdf'
-    // link.download = 'developer-resume.pdf'
-    // document.body.appendChild(link)
-    // link.click()
-    // document.body.removeChild(link)
+    const link = document.createElement('a')
+    link.href = '/images/fincv.pdf'
+    link.download = 'developer-resume.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   return (

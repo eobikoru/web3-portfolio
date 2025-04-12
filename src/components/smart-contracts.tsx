@@ -34,17 +34,23 @@ export function SmartContracts() {
             githubUrl="https://github.com/DexCrawlers/tmaww-stylus.git"
             tags={["Solidity", "ERC-20", "DeFi", "Hardhat"]}
           />
-   <ContractCard
+            <ContractCard
+              title="DAO Governance"
+              description="A DAO (Decentralized Autonomous Organization) governance system for a decentralized insurance protocol."
+              githubUrl="https://github.com/eobikoru/Doa"
+              tags={["Solidity", "Governance", "ERC-20", "Hardhat"]}
+            />
+         <ContractCard
             title="ALPHA"
             description="Alpha is a Web3-native platform where creators and Key Opinion Leaders (KOLs) monetize their expertise by sharing curated tools and offering time for consultations or mentorship sessions"
             githubUrl="https://github.com/eobikoru/alpha-main"
             tags={["Solidity", "ERC-20", "OpenZeppelin","Hardhat"]}
           />
-          <ContractCard
-            title="DAO Governance"
-            description="A decentralized autonomous organization (DAO) governance system with proposal creation, voting mechanisms, and treasury management."
-            githubUrl="https://github.com/yourusername/dao-governance"
-            tags={["Solidity", "Governance", "ERC-20", "Hardhat"]}
+         <ContractCard
+            title="Host Contract"
+            description="A ERC1155 token contract implements a multi-token standard with role-based access control, allowing for the creation, management, and tracking of multiple token types within a single contract while providing administrative functions for pausing, minting, and URI management."
+            githubUrl="https://github.com/eobikoru/host-it-contract"
+            tags={["Solidity", "ERC-20", "OpenZeppelin","foundry","ERC1155"]}
           />
 
        

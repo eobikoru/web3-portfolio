@@ -41,7 +41,7 @@ export function Skills() {
               <SkillCard title="Node.js" level="Advanced">
                 Express, REST APIs, authentication, middleware
               </SkillCard>
-              <SkillCard title="UI/UX" level="Intermediate" className="sm:col-span-2 md:col-span-1">
+              <SkillCard title="UI/UX" level="Advanced" className="sm:col-span-2 md:col-span-1">
                 Tailwind CSS, Figma, responsive design
               </SkillCard>
             </div>
