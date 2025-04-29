@@ -34,31 +34,34 @@ export function Hero() {
 
       <div className="container relative z-10 px-4 mx-auto">
         <div className="flex flex-col items-center text-center">
-        <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-border bg-muted/30 text-sm font-medium backdrop-blur-sm">
-  Full-Stack Web2 <span className="text-primary">&</span> Web3 Developer · Blockchain Enthusiast
-</div>
-
-
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Building the{" "}
-            <span className="bg-gradient-to-r from-primary to-purple-400 bg-clip-text text-transparent">
+          <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-border bg-muted/30 text-sm font-medium backdrop-blur-sm animate-fade-in-down">
+            Full-Stack Web2 <span className="text-primary">&</span> Web3 Developer · Blockchain Enthusiast
+          </div>
+        
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-gradient bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent inline-block animate-slide-up-fade opacity-0 [animation-delay:300ms] [animation-fill-mode:forwards]">
+              Building the{" "}
+            </span>
+            <span className="inline-block ml-2 md:ml-4 animate-slide-up-fade opacity-0 [animation-delay:600ms] [animation-fill-mode:forwards] bg-gradient-to-r from-primary to-purple-400 bg-clip-text text-transparent">
               digital future
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
-            Crafting exceptional experiences with <span className="text-primary">Next.js</span> and{" "}
-            <span className="text-purple-400">Solidity</span>
+            <span className="inline-block animate-slide-up-fade opacity-0 [animation-delay:900ms] [animation-fill-mode:forwards]">
+              Crafting exceptional experiences with <span className="text-primary animate-pulse-slow">Next.js</span> and{" "}
+              <span className="text-purple-400 animate-pulse-slow [animation-delay:1s]">Solidity</span>
+            </span>
           </p>
 
-          <div className="w-full max-w-2xl mx-auto mb-8 p-4 rounded-lg bg-secondary/10 border border-border backdrop-blur-sm">
+          <div className="w-full max-w-2xl mx-auto mb-8 p-4 rounded-lg bg-secondary/10 border border-border backdrop-blur-sm animate-fade-in opacity-0 [animation-delay:1200ms] [animation-fill-mode:forwards]">
             <TypewriterEffect />
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in opacity-0 [animation-delay:1500ms] [animation-fill-mode:forwards]">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 shadow-lg shadow-primary/20"
+              className="bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 shadow-lg shadow-primary/20 animate-gradient"
               onClick={() => scrollToSection("projects")}
             >
               View Projects <ArrowRight className="ml-2 h-4 w-4" />
@@ -73,16 +76,25 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="flex items-center gap-6">
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+          <div className="flex items-center gap-6 animate-fade-in opacity-0 [animation-delay:1800ms] [animation-fill-mode:forwards]">
+            <Link
+              href="#"
+              className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110 transform duration-200"
+            >
               <Github className="h-6 w-6" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link
+              href="#"
+              className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110 transform duration-200"
+            >
               <Twitter className="h-6 w-6" />
               <span className="sr-only">Twitter</span>
             </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link
+              href="#"
+              className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110 transform duration-200"
+            >
               <Linkedin className="h-6 w-6" />
               <span className="sr-only">LinkedIn</span>
             </Link>
@@ -92,4 +104,3 @@ export function Hero() {
     </section>
   )
 }
-
