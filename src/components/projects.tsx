@@ -65,6 +65,17 @@ export function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {
+              title: "Alphacom",
+              description:
+                "A full-featured e-commerce application with Stripe payment integration. This Next.js application includes product listings, shopping cart functionality, secure checkout process, and order management with real-time payment processing.",
+              image: "/images/alpha.png",
+              demoUrl: "https://alphacomonline.com/",
+              repoUrl: "#",
+              tags: ["Next.js", "TypeScript", "Tailwind CSS", "Redux","node js"],
+              type: "web2" as const,
+              delay: 0,
+            },
+            {
               title: "Blinqpay",
               description:
                 "A comprehensive payment gateway solution with seamless integration capabilities. Built with Next.js and TypeScript, this platform offers businesses robust payment processing with an intuitive user interface and responsive design.",
@@ -75,17 +86,7 @@ export function Projects() {
               type: "web2" as const,
               delay: 0,
             },
-            {
-              title: "Alpha",
-              description:
-                "Alpha is a Web3-native platform where creators and Key Opinion Leaders (KOLs) monetize their expertise by sharing curated tools and offering time for consultations or mentorship sessions.",
-              image: "/images/alp.png",
-              demoUrl: "https://alpha-main-self.vercel.app/",
-              repoUrl: "#",
-              tags: ["Next.js", "TypeScript", "Tailwind CSS", "Redux", "solidity", "wagmi"],
-              type: "web3" as const,
-              delay: 100,
-            },
+            
             {
               title: "Qwid",
               description:
@@ -97,17 +98,17 @@ export function Projects() {
               type: "web2" as const,
               delay: 200,
             },
-            {
-              title: "E-commerce with Stripe",
-              description:
-                "A full-featured e-commerce application with Stripe payment integration. This Next.js application includes product listings, shopping cart functionality, secure checkout process, and order management with real-time payment processing.",
-              image: "/images/stripe.jpg",
-              demoUrl: "https://sanity-ecommerce-stripe-bmap.vercel.app/",
-              repoUrl: "https://github.com/eobikoru/Sanity-ecommerce-stripe",
-              tags: ["Next.js", "Stripe", "TypeScript"],
-              type: "web2" as const,
-              delay: 300,
-            },
+            // {
+            //   title: "E-commerce with Stripe",
+            //   description:
+            //     "A full-featured e-commerce application with Stripe payment integration. This Next.js application includes product listings, shopping cart functionality, secure checkout process, and order management with real-time payment processing.",
+            //   image: "/images/stripe.jpg",
+            //   demoUrl: "https://sanity-ecommerce-stripe-bmap.vercel.app/",
+            //   repoUrl: "https://github.com/eobikoru/Sanity-ecommerce-stripe",
+            //   tags: ["Next.js", "Stripe", "TypeScript"],
+            //   type: "web2" as const,
+            //   delay: 300,
+            // },
             {
               title: "Preggify",
               description:
@@ -162,6 +163,17 @@ export function Projects() {
               tags: ["Next.js", "MongoDB", "Tailwind CSS", "Redux"],
               type: "web2" as const,
               delay: 800,
+            },
+            {
+              title: "Alpha",
+              description:
+                "Alpha is a Web3-native platform where creators and Key Opinion Leaders (KOLs) monetize their expertise by sharing curated tools and offering time for consultations or mentorship sessions.",
+              image: "/images/alp.png",
+              demoUrl: "https://alpha-main-self.vercel.app/",
+              repoUrl: "#",
+              tags: ["Next.js", "TypeScript", "Tailwind CSS", "Redux", "solidity", "wagmi"],
+              type: "web3" as const,
+              delay: 100,
             },
             {
               title: "Blog Web Application",

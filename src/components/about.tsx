@@ -6,14 +6,6 @@ import { Button } from "@/components/ui/button"
 
 export function About() {
   const downloadResume = () => {
-    // This is a placeholder. In a real implementation, you would:
-    // 1. Either link to an actual file in your public directory
-    // 2. Or generate a file dynamically and trigger a download
-
-    // // For demonstration, we'll create a simple alert
-    // alert("Resume download would start here. In a real implementation, link this to your actual resume file.")
-
-    // Example of how you would trigger a download for a file in the public directory:
     const link = document.createElement('a')
     link.href = '/images/fincv.pdf'
     link.download = 'Obikoru-daniel-resume.pdf'
